@@ -22,3 +22,80 @@ arm-none-eabi-size  002SampleApp.elf
    6208	    164	   1900	   8272	   2050	002SampleApp.elf
 Finished building: default.size.stdout
  
+13:07:43 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j16 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6208	    164	   1900	   8272	   2050	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+13:24:20 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "002SampleApp.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/ashwin-jhamb/Documents/Mastering MCU Course/MCU1/002SampleApp/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002SampleApp.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 002SampleApp.elf
+ 
+arm-none-eabi-size  002SampleApp.elf 
+arm-none-eabi-objdump -h -S 002SampleApp.elf  > "002SampleApp.list"
+   text	   data	    bss	    dec	    hex	filename
+   6216	    164	   1900	   8280	   2058	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+Finished building: 002SampleApp.list
+ 
+13:29:51 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "002SampleApp.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/ashwin-jhamb/Documents/Mastering MCU Course/MCU1/002SampleApp/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002SampleApp.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 002SampleApp.elf
+ 
+arm-none-eabi-size  002SampleApp.elf 
+arm-none-eabi-objdump -h -S 002SampleApp.elf  > "002SampleApp.list"
+   text	   data	    bss	    dec	    hex	filename
+   6216	    164	   1900	   8280	   2058	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+Finished building: 002SampleApp.list
+ 
+13:30:39 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "002SampleApp.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/ashwin-jhamb/Documents/Mastering MCU Course/MCU1/002SampleApp/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002SampleApp.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 002SampleApp.elf
+ 
+arm-none-eabi-size  002SampleApp.elf 
+arm-none-eabi-objdump -h -S 002SampleApp.elf  > "002SampleApp.list"
+   text	   data	    bss	    dec	    hex	filename
+   6216	    164	   1900	   8280	   2058	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+Finished building: 002SampleApp.list
+ 
+13:33:16 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "002SampleApp.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/ashwin-jhamb/Documents/Mastering MCU Course/MCU1/002SampleApp/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002SampleApp.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 002SampleApp.elf
+ 
+arm-none-eabi-size  002SampleApp.elf 
+arm-none-eabi-objdump -h -S 002SampleApp.elf  > "002SampleApp.list"
+   text	   data	    bss	    dec	    hex	filename
+   6208	    164	   1900	   8272	   2050	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+Finished building: 002SampleApp.list
+ 
+13:35:25 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j16 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6208	    164	   1900	   8272	   2050	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+13:37:59 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j16 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6208	    164	   1900	   8272	   2050	002SampleApp.elf
+Finished building: default.size.stdout
+ 
